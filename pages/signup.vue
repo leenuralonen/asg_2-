@@ -1,5 +1,7 @@
 <template>
-  <main>
-    <h1>Sign Up</h1>
-  </main>
+  <Main>
+    <h1>
+    Sign up
+    </h1>
+  </Main>
 </template>

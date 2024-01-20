@@ -2,7 +2,7 @@
 const { data: hello } = await useFetch("/api/hello");
 const { data } = await useFetch("/api/disney");
 const characters = data;
-const clientSideExample = "Updated check";
+const clientSideExample = "Updated Blah";
 </script>
 
 <template>
@@ -16,7 +16,6 @@ const clientSideExample = "Updated check";
       <p>{{ hello.hello }}</p>
       {{ clientSideExample }}
     </section>
-    <pre>{{ characters }}</pre>
     <section>
       <h2>Disney Character Fetch</h2>
       <ul>

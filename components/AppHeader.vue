@@ -4,34 +4,32 @@
       <NuxtLink to="/">Logo: User Name</NuxtLink>
     </div>
     <nav>
-      <NuxtLink to="employees">Employees</NuxtLink>
-      <nuxtLink to="dogs">Dogs</nuxtLink>
-      <nuxtLink to="signup">Sign Up Page</nuxtLink>
+      <NuxtLink to="dogs">Dogs</NuxtLink>
+      <NuxtLink to="employees">employees</NuxtLink>
+      <NuxtLink to="signup">Sign Up Page</NuxtLink>
     </nav>
   </header>
 </template>
 
 <style scoped>
 header {
-display: flex;
-justify-content: space-between;
-gap: 2rem;
-padding: 2rem;
-color: whitesmoke;
-background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+  color: white;
+  background-color: black;
 }
 a {
   color: white;
-  text-decoration: mediumpurple;
+  text-decoration: none;
 }
 a:hover {
-  color:blue;
-
+  color: blue;
 }
-nav{
+nav {
   display: flex;
   justify-content: space-between;
-  gap: 12px
+  gap: 12px;
 }
-
 </style>
