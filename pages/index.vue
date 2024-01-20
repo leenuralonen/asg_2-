@@ -27,3 +27,11 @@ const clientSideExample = "Updated Blah";
     </section>
   </main>
 </template>
+
+<template>
+  <Main>
+    <H1>
+      Home Page
+    </H1>
+  </Main>
+</template>
