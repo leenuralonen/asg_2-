@@ -1,4 +1,4 @@
-<template>
+<template>//
   <div id="app">
     <AppHeader />
     <NuxtPage />
@@ -10,4 +10,4 @@ body,
 .app {
   margin: 0;
 }
-</style>
+</style>n
